@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2 class="todo-list">Todo list</h2>
+        <p class="error">Please write something before adding your task.</p>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="What's your plan" />
+          <button onclick="addTask()">Add</button>
+        </div>
+
+        <ul id="list-container">
+          <!--<li>Task1</li>
+                <li>Task2</li>
+                <li>Task3</li>-->
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
